@@ -20,17 +20,17 @@ app.use('/api/notes', noteRoutes);
 app.use('/api/auth', authRoutes);
 
 app.get('/', (req, res) => {
-  res.send('hello world')
+    res.send('hello world')
 })
 
-app.listen(port, function (error) { 
-  
+app.listen(port, function (error) {
+
     // Checking any error occur while listening on port 
-    if (error) { 
-        console.log('Something went wrong', error); 
-    } 
+    if (error) {
+        console.log('Something went wrong', error);
+    }
     // Else sent message of listening 
-    else { 
-        console.log('Server is listening on port' + port); 
-    } 
+    else {
+        console.log('Server is listening on port' + port);
+    }
 })
