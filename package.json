@@ -1,0 +1,19 @@
+{
+  "name": "notes-app-mern",
+  "version": "1.0.0",
+  "description": "Notes App using mern stack",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViditJain123/notes-app-mern.git"
+  },
+  "author": "Vidit Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViditJain123/notes-app-mern/issues"
+  },
+  "homepage": "https://github.com/ViditJain123/notes-app-mern#readme"
+}
